@@ -19,9 +19,6 @@ import { ReviewsComponent } from "./restaurant-detail/reviews/reviews.component"
 import { RestaurantsService } from "./restaurants/restaurants.service";
 import { ShoppingCartService } from "./restaurant-detail/shopping-cart/shopping-cart.service";
 import { OrderService } from "./order/order.service";
-import { OrderComponent } from "./order/order.component";
-import { OrderItemsComponent } from "./order/order-items/order-items.component";
-import { DeliveryCostsComponent } from "./delivery-costs/delivery-costs.component";
 import { OrderSummaryComponent } from "./order-summary/order-summary.component";
 import { SharedModule } from "./shared/shared.module";
 
@@ -37,17 +34,12 @@ import { SharedModule } from "./shared/shared.module";
     ShoppingCartComponent,
     MenuItemComponent,
     ReviewsComponent,
-    OrderComponent,
-    OrderItemsComponent,
-    DeliveryCostsComponent,
     OrderSummaryComponent
   ],
   imports: [
     BrowserModule,
     HttpModule,
     SharedModule,
-    FormsModule,
-    ReactiveFormsModule,
     RouterModule.forRoot(ROUTES)
   ],
   providers: [
