@@ -1,7 +1,7 @@
 import { Injectable } from "@angular/core";
 
 import { CartItem } from "./cart-item.model";
-import { MenuItem } from "../menu/menu-item.model";
+import { MenuItem } from "../menu-item/menu-item.model";
 
 import { NotificationService } from "app/shared/messages/notification.service";
 
